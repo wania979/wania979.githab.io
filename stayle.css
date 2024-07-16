@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*-----------------------------------*/
+body {
+    background-color: aqua;
+}
+
+.hot{
+    max-width: 1600px;
+    min-height: 100vh;
+    background-color: rgb(20, 187, 95);
+   margin: auto;
+   padding: 50px 100px 50px;
+}
+.logo {
+    width: 400px;
+    transition: 1s;
+
+}
+.btn {
+    margin: 50px 0 px;
+    padding:10px 30px;
+    font-size: 30px;
+    color: #3d16c7; 
+    background-color: blue;
+    border: #3d16c7;
+} 
+.btn :hover {
+   background-color: azure; 
+   color: #177faf;
+}
+.btn:hover ~ .logo{
+ /* transform: translate(0px -100px)  /* 
+ /* transform: translate(-60deg)  */
+ /*transform: scale: (1); */
+ /* transform: skew( -20deg-20 deg) */
+ transform: translate(600px 0); rotate: 360deg;translate:600px ;
+}
+
